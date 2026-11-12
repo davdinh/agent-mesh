@@ -1,0 +1,22 @@
+# Python / tooling leftovers
+.venv/
+__pycache__/
+*.pyc
+
+# Editor and OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files from running the mesh script
+*.raw
+*.rc
+*.tmp
+
+# Never commit credentials or token files
+.env
+*.pem
+*.key
+api-tokens.*
